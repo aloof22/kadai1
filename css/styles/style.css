@@ -6,7 +6,17 @@ p {
   color: green;
 }
 
+/* クラスの追加 */
 .special {
   color: orange;
   font-weight: bold;
+}
+
+/* 文書内の場所に基づくスタイル設定 */
+li em {
+  color: rebeccapurple;
+}
+
+h1 + p {
+  font-size: 200%;
 }
