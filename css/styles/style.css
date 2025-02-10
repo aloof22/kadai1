@@ -61,3 +61,14 @@ h1 + p .special {
   background-color: blue;
   transform: rotate(1.2turn);
 }
+
+/* アットルール */
+body {
+  background-color: pink;
+}
+
+@media (min-width: 30em) {
+  body {
+    background-color: whitesmoke;
+  }
+}
