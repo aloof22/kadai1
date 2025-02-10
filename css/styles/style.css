@@ -20,3 +20,16 @@ li em {
 h1 + p {
   font-size: 200%;
 }
+
+/* 状態に基づくスタイル設定 */
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
